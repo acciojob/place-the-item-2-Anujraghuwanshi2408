@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+.container{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.container div{
+    height: 50px;
+    width: 50px;
+    
+}
+.container div:nth-child(odd){
+   
+    background-color: green;
+}
+.container div:nth-child(even){
+   
+    background-color: red;
+}
