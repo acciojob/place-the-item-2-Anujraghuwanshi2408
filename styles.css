@@ -1,6 +1,6 @@
 
 /* Your CSS Code here. */
-.container{
+.holder{
     display: flex;
     width: 70%;
     margin: 0 auto;
@@ -8,16 +8,16 @@
     flex-wrap: wrap;
 
 }
-.container div{
+.holder div{
     height: 50px;
     width: 50px;
     
 }
-.container div:nth-child(odd){
+.holder div:nth-child(odd){
    
     background-color: green;
 }
-.container div:nth-child(even){
+.holder div:nth-child(even){
    
     background-color: red;
 }
